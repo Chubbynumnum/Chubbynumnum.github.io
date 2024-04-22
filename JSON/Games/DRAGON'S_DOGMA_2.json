@@ -1,0 +1,33 @@
+{
+    "description": "Set forth on your grand adventure, Arisen! Dragon’s Dogma is a single player, narrative driven action-RPG series that challenges the players to choose their own experience – from the appearance of their Arisen, their vocation, their party, how to approach different situations and more. Now, in this long-awaited sequel, the deep, explorable fantasy world of Dragon’s Dogma 2 awaits. On your journey, you’ll be joined by Pawns, mysterious otherworldly beings, in an adventure so unique you will feel as if accompanied by other players while on your own adventure. All of these elements are elevated further through physics technology, artificial intelligence (AI) and the latest in graphics, to create a truly immersive fantasy world in Dragon’s Dogma 2.",
+    "img": "../Images/Wpf_osr8trsr88KTITvz-VatowDxNRiWEekGZd9LJRo.png",
+    "Name": "Dragon's Dogma 2",
+    "displayImage": "../Images/dragon_dogma_1000x410.png",
+    "Graph":
+      {
+      "Computer": "https://gg.deals/game/dragons-dogma-ii/#price-history"
+      ,
+        "Xbox": "https://gg.deals/game/dragons-dogma-2-xbox-series/#price-history"
+      ,
+        "Playstation": "https://gg.deals/game/dragons-dogma-2-ps5/#price-history"
+      },
+    "defaultGameType": 0,
+    "Price": 
+      {
+        "Computer": "£33.29"
+      ,
+        "Xbox": "£43.95"
+      ,
+        "Playstation": "£59.99"
+      },
+    "Platforms": 
+      {
+        "Computer": "y"
+      ,
+        "Xbox": "y"
+      ,
+        "Playstation": "y"
+      ,
+        "Nintendo": "n"
+      }
+  }

@@ -1,0 +1,241 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Basket</title>
+        <link rel="stylesheet" href="../CSS/SearchStyle.css">
+        <link rel="stylesheet" href="../CSS/MenuSearchStyle.css">
+        <link rel="stylesheet" href="../CSS/ProductContainerStyle.css">
+        <link rel="stylesheet" href="../CSS/background.css">
+        <link rel="stylesheet" href="../CSS/Basket.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&amp;display=swap" rel="stylesheet">
+    </head>
+    <body class="search-backdrop">
+        <header class="header-container">
+            <a href="welcome.html" class="web-icon">
+              <img src="../Images/Game Station.png" alt="">
+            </a>
+            <!--MENU SEARCHBAR-->
+            <div class="menu">
+                <div class="product-menu">
+                    <div class="glossy"></div>
+                    <div class="links">
+                        <div class="nav_PC nav">
+                            <a class="aline" href="SearchLanding.html?q=PC">
+                                <div class="icon_PC icon_XS"></div>
+                                <span class="title">PC</span>
+                            </a>
+                        </div>
+                        <div class="nav_Playstation nav">
+                            <a class="aline" href="SearchLanding.html?q=playstation">
+                                <div class="icon_Playstation icon_XS"></div>
+                                <span class="title">Playstation</span>
+                            </a>
+                        </div>
+                        <div class="nav_Xbox nav">
+                            <a class="aline" href="SearchLanding.html?q=Xbox">
+                                <div class="icon_Xbox icon_XS"></div>
+                                <span class="title">Xbox</span>
+                            </a>
+                        </div>
+                        <div class="nav_Nintendo nav">
+                            <a class="aline" href="SearchLanding.html?q=Nintendo">
+                                <div class="icon_Nintendo icon_XS"></div>
+                                <span class="title">Nintendo</span>
+                            </a>
+                        </div>
+                        <div class="nav_Account nav">
+                            <a class = "aline" href="../Content/account/page.html">
+                                <div class = "icon_Account icon_XS"></div>
+                                <span class ="title">Account</span>
+                            </a>
+    
+                        </div>
+                    </div>
+                    <form id="gs-search-form" class="gs-search-form" action="Search.html" method="get" role="search" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+                        <div class="gs-search" id="gs-search" accesskey="s">
+                            <input class="search-input" id="gs-header-search-box-input" name="q" autocomplete="off" spellcheck="false" autocapitalize="off" itemprop="query-input" placeholder="Minecraft, RPG, multiplayer...">
+                            <div class="icon-backspace icon-s" id="IconBackSpace"></div>
+                            <div class="close-search" id="CloseSearch">+</div>
+                            <div class="icon-search-input" id="searchInputIcon"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <script src="../JS/MenuSearch.js"></script>
+            <!--MENU SEARCHBAR END-->
+        </header>
+        <main>
+            <div class="Page_Container">
+                <div class="Account_Section">
+                    <div class="container">
+                        <div class="row gutters">
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="account-settings">
+                                            <div class="user-profile">
+                                                <div class="user-avatar">
+                                                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Maxwell Admin">
+                                                </div>
+                                                <h5 class="user-name">Yuki Hayashi</h5>
+                                                <h6 class="user-email">yuki@Maxwell.com</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="row gutters">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <h6 class="mb-2 text-primary">Personal Details</h6>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="fullName">Full Name</label>
+                                                    <input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="eMail">Email</label>
+                                                    <input type="email" class="form-control" id="eMail" placeholder="Enter email ID">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="phone">Phone</label>
+                                                    <input type="text" class="form-control" id="phone" placeholder="Enter phone number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row gutters">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <h6 class="mt-3 mb-2 text-primary">Address</h6>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="Street">Street</label>
+                                                    <input type="name" class="form-control" id="Street" placeholder="Enter Street">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="ciTy">City</label>
+                                                    <input type="name" class="form-control" id="ciTy" placeholder="Enter City">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="sTate">State</label>
+                                                    <input type="text" class="form-control" id="sTate" placeholder="Enter State">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="zIp">Zip Code</label>
+                                                    <input type="text" class="form-control" id="zIp" placeholder="Zip Code">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row gutters">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <div class="text-right">
+                                                    <button type="button" id="submit" name="submit" class="btn btn-secondary">Cancel</button>
+                                                    <button type="button" id="submit" name="submit" class="btn btn-primary">Update</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="container-fluid" id="basket">
+                    <div class="row">
+                        <!--Basket stuff-->
+                        <div class="col-lg-8">
+                            <div class="cart-page-inner">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>Product</th>
+                                                <th>Price</th>
+                                                <th>Quantity</th>
+                                                <th>Total</th>
+                                                <th>Remove</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="align-middle">
+                                            <tr>
+                                                <td>
+                                                    <div class="img">
+                                                        <a href="#"><img src="https://placehold.it/60x60?text=IMAGE" alt="Image"></a>
+                                                        <p>Product Name</p>
+                                                    </div>
+                                                </td>
+                                                <td>$99</td>
+                                                <td>
+                                                    <div class="qty">
+                                                        <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                        <input type="text" value="1">
+                                                        <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                                    </div>
+                                                </td>
+                                                <td>$99</td>
+                                                <td><button><i class="fa fa-trash"></i></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="img">
+                                                        <a href="#"><img src="https://placehold.it/60x60?text=IMAGE" alt="Image"></a>
+                                                        <p>Product Name</p>
+                                                    </div>
+                                                </td>
+                                                <td>$99</td>
+                                                <td>
+                                                    <div class="qty">
+                                                        <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                        <input type="text" value="1">
+                                                        <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                                    </div>
+                                                </td>
+                                                <td>$99</td>
+                                                <td><button><i class="fa fa-trash"></i></button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Basket stuff End-->
+                        <!--Check Out stuff-->
+                        <div class="col-lg-4">
+                            <div class="cart-page-inner">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="cart-summary">
+                                            <div class="cart-content">
+                                                <h1>Cart Summary</h1>
+                                                <p>Sub Total<span>$99</span></p>
+                                                <h2>Grand Total<span>$100</span></h2>
+                                            </div>
+                                            <div class="cart-btn">
+                                                <button>Update Cart</button>
+                                                <button>Checkout</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Check Out stuff End-->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

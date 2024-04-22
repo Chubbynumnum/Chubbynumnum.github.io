@@ -1,0 +1,829 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    font-size: 14px;
+}
+header{
+    z-index: 2;
+}
+main{
+    width: 100%;
+    /*background-color: rgb(0, 0, 0);*/
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    margin-top: calc(-7vw + 400px);
+    /*z-index: -1;*/
+}
+/*.spacer::after{
+    content: '';
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+    background-image: linear-gradient(to top, #000 60%, transparent);
+}*/
+.content {
+    width: 100%;
+    height: calc(360px + 2vw);
+    position: relative;
+    top: 20%;
+    margin-left: 0%;
+    overflow: hidden;
+}
+.frame_container{
+  position: relative;
+  width: 115%;
+  height: calc(400px + 2vw);
+  overflow: hidden;
+  bottom: 25%;
+  right: 8%;
+}
+.content iframe{
+    width: 50vw;
+    height: calc(600px + 2vw);
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: -1vw;
+}
+.priceHistorySection{
+  border-radius: 5%;
+  background-color: antiquewhite;
+  width: 45%;
+  height: 50%;
+  margin-left: 2%;
+  z-index: 1;
+  position: relative;
+  bottom: calc(1000px - 39vw);
+  right: 2%;
+}
+.Text_priceHistory{
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: -12%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+/*body.Nintendo_selected .content iframe{
+  margin-top: -20vw;
+}*/
+@media screen and (max-width: 1000px) {
+  .priceHistorySection{
+    position: static;
+    width: 100%;
+    margin-top: calc(47% - 19vw);
+    margin-left: 0%;
+    height: 42%;
+  }
+  .content iframe{
+    width: 100vw;
+    left: 7%;
+  }
+  .Text_priceHistory{
+    margin-bottom: 0;
+    position: static;
+  }
+  .content {
+    top: 0;
+  }
+}
+
+
+/***auto generated***/
+
+.v1_2 {
+  width: 100%;
+  height: 1024px;
+  opacity: 1;
+  position: relative;
+  left: 0px;
+  top: 10%;
+  background-image: linear-gradient(to top, #000 60%, transparent);
+  z-index: 0;
+  transition: .2s;
+  /*background-color: rgba(0, 0, 0, 0.76);*/
+}
+body.scrolled .v1_2{
+    backdrop-filter: blur(60px) saturate(100%);
+    -webkit-backdrop-filter: blur(60px) saturate(100%);
+}
+@media screen and (max-width: 1000px) {
+  .v1_170{
+    width: 100%;
+  }
+  .v5_137{
+    width: 100%;
+    margin-left: 0;
+  }
+  .v1_11 {
+    width: 100%;
+    height: 41vw;
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .v1_170{
+    width: 50%;
+    height: 100%;
+  }
+  .v5_137{
+    width: 50%;
+    margin-left: 47vw;
+    margin-top: calc(3% + -1110px);
+  }
+  .v1_11 {
+    width: 90%;
+    height: 26vw;
+    margin-top: 14%;
+  }
+}
+.v1_170 {
+  opacity: 1;
+}
+.v1_173 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.v1_11 {
+  border-radius: 5%;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.v5_137 {
+  background-size: cover;
+  background: rgb(206, 193, 193);
+  opacity: 1; 
+  border-radius: 5%;
+}
+.v5_136 {
+  width: 100%;
+  background-size: cover;
+  margin-left: 3px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v5_135 {
+  width: 90%;
+  background-size: cover;
+  margin: 37px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v5_134 {
+  width: 100%;
+  height: 324px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v5_133 {
+  width: 100%;
+  margin: 5px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v1_16 {
+  height: 94px;
+  opacity: 1;
+  position: relative;
+}
+.v1_12 {
+  width: 114px;
+  color: rgba(30,30,30,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Times;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_20 {
+  width: 200%;
+  height: 45px;
+  margin: 8px;
+  opacity: 1;
+}
+.v1_13 {
+  width: 54px;
+  color: rgba(104,98,98,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_19 {
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_18 {
+  width: 432px;
+  color: rgba(104,98,98,1);;
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.2vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_81 {
+  width: 100%;
+  height: 101px;
+  opacity: 1;
+}
+.v1_80 {
+  width: 100%;
+  margin: 0;
+  opacity: 1;
+}
+.v1_50 {
+  margin: 8px;
+  opacity: 1;
+}
+.v1_29 {
+  width: 100%;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.2vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_49 {
+  width: 100%;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.1vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_21 {
+  width: 100%;
+  height: 14px;
+  margin: 8px;
+  opacity: 1;
+}
+.v1_30 {
+  width: 100%;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.3vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_79 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+.v1_28 {
+  width: 133px;
+  height: 71px;
+  background: rgba(255,255,255,1);
+  padding: 15px 20px;
+  margin: 10px;
+  opacity: 1;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-decoration: none;
+}
+body.PC_selected .PC_plaform{
+  background: rgb(165, 173, 181);
+}
+body.Xbox_selected .Xbox_plaform{
+  background: rgb(123, 212, 109);
+}
+body.Playstation_selected .Playstation_plaform{
+  background: rgb(138, 174, 206);
+}
+body.Nintendo_selected .Nintendo_plaform{
+  background: rgb(211, 111, 102);
+}
+.v1_28:hover{
+  scale: 104%;
+  cursor: pointer;
+}
+.v1_25 {
+  width: 100%;
+  height: 100%;
+  margin: 4px;
+  opacity: 1;
+}
+.v1_26 {
+  width: 100%;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.5vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_27 {
+  width: 100%;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 0.9vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_41 {
+  width: 133px;
+  height: 71px;
+  background: rgba(255,255,255,1);
+  padding: 15px 20px;
+  margin: 10px;
+  opacity: 1;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.v1_42 {
+  width: 100%;
+  height: 41px;
+  margin: 4px;
+  opacity: 1;
+}
+.v1_43 {
+  width: 100%;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.5vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_44 {
+  width: 100%;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 0.9vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_45 {
+  width: 133px;
+  height: 71px;
+  background: rgba(255,255,255,1);
+  padding: 15px 20px;
+  margin: 10px;
+  opacity: 1;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.v1_46 {
+  width: 100%;
+  height: 41px;
+  margin: 4px;
+  opacity: 1;
+}
+.v1_47 {
+  width: 100%;
+  color: rgba(30,30,30,1);;
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.5vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_48 {
+  width: 100%;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 0.9vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_82 {
+  width: 432px;
+  height: 100%;
+  margin: 16px;
+  opacity: 1;
+  top: 361px;
+  left: 0px;
+}
+.v1_83 {
+  width: 432px;
+  height: 100%;
+  margin: 270px;
+  opacity: 1;
+}
+.v1_84 {
+  width: 101px;
+  height: 100%;
+  margin: 8px;
+  opacity: 1;
+}
+.v1_85 {
+  width: 66px;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_86 {
+  width: 27px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_112 {
+  width: 116px;
+  height: 32px;
+  opacity: 1;
+}
+.v1_113 {
+  width: 116px;
+  height: 100%;
+  margin: 16px;
+  opacity: 1;
+}
+.v1_114 {
+  width: 26px;
+  height: 26px;
+  background: linear-gradient(rgba(174,122,74,1), rgba(174,123,75,1));
+  opacity: 1;
+  border-radius: 50%;
+}
+.v1_115 {
+  width: 26px;
+  height: 32px;
+  opacity: 1;
+}
+.v1_116 {
+  width: 26px;
+  height: 26px;
+  background: linear-gradient(rgba(207,207,207,1), rgba(207,207,207,1));
+  opacity: 1;
+  border-radius: 50%;
+}
+.v1_117 {
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  border-radius: 50%;
+}
+.v1_119 {
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+.v1_118 {
+  width: 26px;
+  height: 26px;
+  background: linear-gradient(rgba(187,161,79,1), rgba(180,147,82,1));
+  opacity: 1;
+  border-radius: 50%;
+}
+.v1_120 {
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  border-radius: 50%;
+}
+.v1_136 {
+  width: 100%;
+  height: 44px;
+  margin: 16px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+.v1_124 {
+  width: 193px;
+  height: 44px;
+  opacity: 1;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.v1_121 {
+  width: 15vw;
+  max-width: 193px;
+  height: 44px;
+  background: rgba(39,39,39,1);
+  opacity: 1;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  overflow: hidden;
+}
+.v1_123 {
+  width: 97px;
+  color: rgba(246,246,246,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 100%;
+  opacity: 1;
+  text-align: center;
+  margin-left: 4vw;
+  position: relative;
+  bottom: 70%;
+}
+.v1_135 {
+  width: 12px;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+.v1_129 {
+  width: 225px;
+  height: 44px;
+  opacity: 1;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.v1_130 {
+  width: 15vw;
+  max-width: 193px;
+  height: 44px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  overflow: hidden;
+}
+.v1_131 {
+  width: 114px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 100%;
+  opacity: 1;
+  text-align: center;
+  margin-left: 4vw;
+  position: relative;
+  bottom: 70%;
+}
+.v5_132 {
+  /*width: 100%;*/
+  margin: 32px;
+  opacity: 1;
+}
+.v1_134 {
+  width: 100%;
+  height: 27px;
+  opacity: 1;
+}
+.v1_133 {
+  width: 100%;
+  height: 14px;
+  margin: 16px;
+  opacity: 1;
+}
+.v1_125 {
+  width: 61px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 2vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_126 {
+  width: 48px;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_127 {
+  width: 57px;
+  color: rgba(104,98,98,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v102_61 {
+  width: 100%;
+  height: 1px;
+  background: rgba(231,231,231,1);
+  opacity: 1;
+}
+.v1_149 {
+  width: 100%;
+  padding: 22px;
+  padding-bottom: 10%;
+  opacity: 1;
+}
+.v1_139 {
+  width: 462px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 1.2vw;
+  opacity: 1;
+  text-align: left;
+}
+.v1_140 {
+  width: 462px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_138 {
+  width: 64px;
+  opacity: 1;
+  border: 1px solid rgba(30,30,30,1);
+}
+.v1_178 {
+  width: 100%;
+  height: 143px;
+  opacity: 1;
+}
+.v1_171 {
+  width: 269px;
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_181 {
+  width: 482px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_168 {
+  width: 100%;
+  opacity: 1;
+  border: 1px solid rgba(231,231,231,1);
+}
+.v1_172 {
+  width: 100%;
+  opacity: 1;
+  border: 1px solid rgba(231,231,231,1);
+}
+.v1_180 {
+  width: 100%;
+  opacity: 1;
+  border: 1px solid rgba(231,231,231,1);
+}
+.v1_174 {
+  width: 100%;
+  opacity: 1;
+  border: 1px solid rgba(231,231,231,1);
+  transform: rotate(-89deg);
+}
+.v1_175 {
+  width: 100%;
+  opacity: 1;
+  border: 1px solid rgba(231,231,231,1);
+  transform: rotate(-89deg);
+}
+.v1_179 {
+  width: 100%;
+  height: 76px;
+  opacity: 1;
+}
+.v1_156 {
+  width: 193px;
+  color: rgba(30,30,30,1);
+  font-family: Times;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_155 {
+  width: 433px;
+  height: 12px;
+  margin: 44px;
+  opacity: 1;
+  overflow: hidden;
+}
+.v1_150 {
+  width: 70px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_151 {
+  width: 50px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_152 {
+  width: 42px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_153 {
+  width: 44px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_154 {
+  width: 51px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_166 {
+  width: 167px;
+  height: 12px;
+  margin: 44px;
+  opacity: 1;
+}
+.v1_165 {
+  width: 35px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_164 {
+  width: 88px;
+  color: rgba(30,30,30,1);
+  font-family: GT Walsheim Pro;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_176 {
+  width: 100%;
+  height: 76px;
+  opacity: 1;
+}

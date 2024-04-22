@@ -1,0 +1,18 @@
+{
+    "acc": [
+        {
+            "Email" : "johnDoe79@gmail.com",
+            "Firstname" : "john",
+            "Lastname" : "Doe",
+            "Phone" : "07798554319",
+            "Password" : "password"
+        },
+        {
+            "Email" : "jameiAA@gmail.com",
+            "Firstname" : "jamie",
+            "Lastname" : "Albert",
+            "Phone" : "07795899319",
+            "Password" : "password1"
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="../../CSS/login.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="../../../CSS/MenuSearchStyle.css">
+
+</head>
+
+<body class="search-backdrop">
+
+    <header class="header-container">
+        <a href="../welcome.html" class="web-icon">
+          <img src="../../../Images/Game Station.png" alt="">
+        </a>
+        <!--MENU SEARCHBAR-->
+        <div class="menu">
+            <div class="product-menu">
+                <div class="glossy"></div>
+                <div class="links">
+                    <div class="nav_PC nav">
+                        <a class="aline" href="../SearchLanding.html?q=PC">
+                            <div class="icon_PC icon_XS"></div>
+                            <span class="title">PC</span>
+                        </a>
+                    </div>
+                    <div class="nav_Playstation nav">
+                        <a class="aline" href="../SearchLanding.html?q=playstation">
+                            <div class="icon_Playstation icon_XS"></div>
+                            <span class="title">Playstation</span>
+                        </a>
+                    </div>
+                    <div class="nav_Xbox nav">
+                        <a class="aline" href="../SearchLanding.html?q=Xbox">
+                            <div class="icon_Xbox icon_XS"></div>
+                            <span class="title">Xbox</span>
+                        </a>
+                    </div>
+                    <div class="nav_Nintendo nav">
+                        <a class="aline" href="../SearchLanding.html?q=Nintendo">
+                            <div class="icon_Nintendo icon_XS"></div>
+                            <span class="title">Nintendo</span>
+                        </a>
+                    </div>
+                    <div class="nav_Account nav">
+                        <a class = "aline" href="../Content/account/page.html">
+                            <div class = "icon_Account icon_XS"></div>
+                            <span class ="title">Account</span>
+                        </a>
+
+                    </div>
+                </div>
+                <form id="gs-search-form" class="gs-search-form" action="Search.html" method="get" role="search" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+                    <div class="gs-search" id="gs-search" accesskey="s">
+                        <input class="search-input" id="gs-header-search-box-input" name="q" autocomplete="off" spellcheck="false" autocapitalize="off" itemprop="query-input" placeholder="Minecraft, RPG, multiplayer...">
+                        <div class="icon-backspace icon-s" id="IconBackSpace"></div>
+                        <div class="close-search" id="CloseSearch">+</div>
+                        <div class="icon-search-input" id="searchInputIcon"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="../../../JS/MenuSearch.js"></script>
+        <!--MENU SEARCHBAR END-->
+    </header>
+
+
+    <div id="form" class="wrapper">
+        <form action="">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input id="email" type="text" placeholder="Email Address"
+                required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+
+            <div class="input-box">
+                <input id="Fname" type="text" placeholder="First Name"
+                required>
+                <i class='bx bxs-user-circle'></i>
+            </div>
+
+            <div class="input-box">
+                <input id="Lname" type="text" placeholder="Last Name"
+                required>
+                <i class='bx bxs-user-circle'></i>
+            </div>
+
+            <div class="input-box">
+                <input id="Num" type="text" placeholder="Phone Number"
+                required>
+                <i class='bx bxs-phone'></i>
+            </div>
+
+            <div class="input-box">
+                <input id="Pass" type="password" placeholder="Password"
+                required>
+
+                <i class='bx bxs-lock' ></i>
+            </div>
+
+
+            <button type="submit"  class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="page.html">Login</a>  
+                </p>
+            </div>
+
+            
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

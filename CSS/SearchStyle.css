@@ -1,0 +1,42 @@
+@media screen and (max-width: 650px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 15px;
+    }
+}
+/*default values*/
+body {
+    --color: #ff1800;
+    --color-link-hover: #ff3824;
+    --color-very-light: #f6c2c2;
+    --color-light: #b88787;
+    --color-medium-light: #8d3b3b;
+    --color-medium: #7a1c1c;
+    --color-medium-Transparent: rgb(88, 0, 0, 36%);
+    --color-medium-dark: #3e0000;
+    --color-dark: #130000;
+    --color-very-dark: #140000;
+    --color-ultra-dark: #000000;
+    --fire-gradient: linear-gradient(10deg,var(--color-medium-dark),transparent) var(--color);
+    background-color: var(--color-dark);
+    font-size: 15px;
+    font-family: barlow, arial, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    flex-direction: column;
+    font-size: 15px;
+    position: relative;
+    width: 100%;
+    background-image: url(../Images/1.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.274)50%, rgba(0, 0, 0, 0.274)50%), url(../images/1.gif);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}

@@ -1,0 +1,116 @@
+{
+  "Games": [
+    {
+      "Name": "Portal 2",
+      "thumbnail": "../Images/Portal_2150x80.jpg",
+      "Price": 
+        {
+          "Computer": "£8.50"
+        ,
+          "Xbox": "£14.99"
+        ,
+          "Nintendo": "£13.49"
+        },
+      "Platforms": 
+        {
+          "Computer": "y"
+        ,
+          "Xbox": "y"
+        ,
+          "Playstation": "n"
+        ,
+          "Nintendo": "y"
+        }
+    },
+    {
+      "Name": "Back 4 Blood",
+      "thumbnail": "../Images/Back-4-Blood-Key-Art_150x80.png",
+      "Price": 
+      {
+        "Computer": "£3.32"
+      ,
+        "Xbox": "£5.68"
+      ,
+        "Playstation": "£8.99"
+      },
+      "Platforms": 
+      {
+        "Computer": "y"
+      ,
+        "Xbox": "y"
+      ,
+        "Playstation": "y"
+      ,
+        "Nintendo": "n"
+      }
+    },
+    {
+      "Name": "Dragon's Dogma 2",
+      "thumbnail": "../Images/dragons-dogma-2_150x80.png",
+      "Price": 
+      {
+        "Computer": "£33.29"
+      ,
+        "Xbox": "£43.95"
+      ,
+        "Playstation": "£59.99"
+      },
+    "Platforms": 
+      {
+        "Computer": "y"
+      ,
+        "Xbox": "y"
+      ,
+        "Playstation": "y"
+      ,
+        "Nintendo": "n"
+      }
+    },
+    {
+      "Name": "Baldur's Gate 3",
+      "thumbnail": "../Images/fdkhgregbzrdhbj.png",
+      "Price": 
+      {
+        "Computer": "£49.99"
+      ,
+        "Xbox": "£38.40"
+      ,
+        "Playstation": "£57.99"
+      },
+    "Platforms": 
+      {
+        "Computer": "y"
+      ,
+        "Xbox": "y"
+      ,
+        "Playstation": "y"
+      ,
+        "Nintendo": "n"
+      }
+    },
+    {
+      "Name": "ELDEN RING",
+      "thumbnail": "../Images/2odx6gpsgR6qQ16YZ7YkEt2B.png",
+      "Price": 
+      {
+        "Computer": "£37.52"
+      ,
+        "Xbox": "£36.82"
+      ,
+        "Playstation": "£49.99"
+      },
+    "Platforms": 
+      {
+        "Computer": "y"
+      ,
+        "Xbox": "y"
+      ,
+        "Playstation": "y"
+      ,
+        "Nintendo": "n"
+      }
+    }
+    
+
+  ]
+}

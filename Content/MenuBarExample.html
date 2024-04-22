@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="../css/ExamplePageStyle.css">
+    <link rel="stylesheet" href="../CSS/MenuSearchStyle.css">
+    <link rel="stylesheet" href="../CSS/parallaxTestStyle.css">
+    <link rel="stylesheet" href="../CSS/background.css">
+
+</head>
+<body class="search-backdrop">
+    <header class="header-container">
+        <!--MENU SEARCHBAR-->
+        <div class="menu">
+            <div class="product-menu">
+                <div class="glossy"></div>
+                <div class="links">
+                    <div class="nav_PC nav">
+                        <a class="aline" href="SearchLanding.html">
+                            <div class="icon_PC icon_XS"></div>
+                            <span class="title">PC</span>
+                        </a>
+                    </div>
+                    <div class="nav_Playstation nav">
+                        <a class="aline" href="SearchLanding.html">
+                            <div class="icon_Playstation icon_XS"></div>
+                            <span class="title">Playstation</span>
+                        </a>
+                    </div>
+                    <div class="nav_Xbox nav">
+                        <a class="aline" href="SearchLanding.html">
+                            <div class="icon_Xbox icon_XS"></div>
+                            <span class="title">Xbox</span>
+                        </a>
+                    </div>
+                    <div class="nav_Nintendo nav">
+                        <a class="aline" href="SearchLanding.html">
+                            <div class="icon_Nintendo icon_XS"></div>
+                            <span class="title">Nintendo</span>
+                        </a>
+                    </div>
+                </div>
+                <form id="ig-search-form" class="ig-search-form" action="Search.html" method="get" role="search" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+                    <div class="ig-search" id="ig-search" accesskey="s">
+                        <input class="search-input" id="ig-header-search-box-input" name="q" autocomplete="off" spellcheck="false" autocapitalize="off" itemprop="query-input" placeholder="Minecraft, RPG, multiplayer...">
+                        <div class="icon-backspace icon-s" id="IconBackSpace"></div>
+                        <div class="close-search" id="CloseSearch">+</div>
+                        <div class="icon-search-input" id="searchInputIcon"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="../JS/MenuSearch.js"></script>
+        <!--MENU SEARCHBAR END-->
+    </header>
+    <div class="Top-Banner">
+        <picture class="parallax" style="top: 0px; bottom: 0px;">
+            <div class="header-Top-gradient"></div>
+            <source srcset="../Images/welcome_400width.jpg" media="(max-width: 400px)">
+            <source srcset="../Images/welcome_600width.jpg" media="(max-width: 600px)">
+            <source srcset="../Images/welcome_1000width.jpg" media="(max-width: 1000px)">
+            <source srcset="../Images/welcome_1400width.jpg" media="(max-width: 1400px)">
+            <img src="../Images/welcome.jpg" alt="welcom image">
+        </picture>
+    </div>
+</body>
+</html>

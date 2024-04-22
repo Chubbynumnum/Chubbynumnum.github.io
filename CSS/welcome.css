@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.274)50%, rgba(0, 0, 0, 0.274)50%), url(../images/1.gif);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{ 
+width: 1640px;
+height: 75px;
+margin: auto;
+
+}
+header{
+    z-index: 2;
+}
+/*
+body.welcome .product-menu{
+    position: absolute;
+    top: 30px;
+}
+body.welcome .header-container .menu .product-menu .ig-search-form .ig-search .icon-search-input{
+    right: 60px;
+}
+*/
+
+.logo {
+    color: red;
+    font-size: 3vw;
+    width: 26vw;
+    font-family: montserrat,sans-serif;
+    float: left;
+    padding-top: 16px;
+    transition: .2s;
+}
+
+@media screen and (min-width: 1000px){
+    /*body.welcome .header-container .menu .product-menu .ig-search-form{
+        margin-left: 80%;
+        
+    }*/
+    /*body.welcome .header-container .menu .product-menu{
+        width:  110%;
+    }*/
+}
+main{
+    z-index: 0;
+}
+/* 
+.game-description {
+    width: 20vw;
+} */
+
+
+/* Register button */
+.slider .btn {
+    width: 40%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+
+    z-index: 4;
+
+}
+/* Register button */
+
+/*  Elden Ring register Email input   */
+.slider .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    
+    font-size: 20px;
+    color: #fff;
+
+    z-index: 4;
+
+}
+
+.input-box input {
+    width: 30%;
+    height: 20%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    z-index: 4;
+
+
+}
+
+.input-box input::placeholder {
+    color: #fff;
+
+    z-index: 4;
+
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    font-size: 40px;
+
+        z-index: 4;
+
+}
+
+/*  Elden Ring register Email input   */
+
+

@@ -1,0 +1,9 @@
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.274)50%, rgba(0, 0, 0, 0.274)50%), url(../images/1.gif);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+
+}

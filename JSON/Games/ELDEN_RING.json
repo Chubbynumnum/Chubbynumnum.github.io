@@ -1,0 +1,33 @@
+{
+    "description": "",
+    "img": "../Images/elden-ring-bosses-in-order-main-mandatory-8042-1647011924713.png",
+    "Name": "ELDEN RING",
+    "displayImage": "../Images/ssrxrexrexexrxr.png",
+    "Graph":
+      {
+      "Computer": "https://gg.deals/game/elden-ring/#price-history"
+      ,
+        "Xbox": "https://gg.deals/game/elden-ring-xbox-one-series/#price-history"
+      ,
+        "Playstation": "https://gg.deals/game/elden-ring-ps4-ps5/#price-history"
+      },
+    "defaultGameType": 0,
+    "Price": 
+      {
+        "Computer": "£37.52"
+      ,
+        "Xbox": "£36.82"
+      ,
+        "Playstation": "£49.99"
+      },
+    "Platforms": 
+      {
+        "Computer": "y"
+      ,
+        "Xbox": "y"
+      ,
+        "Playstation": "y"
+      ,
+        "Nintendo": "n"
+      }
+  }

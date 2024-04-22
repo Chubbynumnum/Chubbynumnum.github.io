@@ -1,0 +1,33 @@
+{
+  "description": "Portal 2 draws from the award-winning formula of innovative gameplay, story, and music that earned the original Portal over 70 industry accolades and created a cult following.The single-player portion of Portal 2 introduces a cast of dynamic new characters, a host of fresh puzzle elements, and a much larger set of devious test chambers. Players will explore never-before-seen areas of the Aperture Science Labs and be reunited with GLaDOS, the occasionally murderous computer companion who guided them through the original game.The game's two-player cooperative mode features its own entirely separate campaign with a unique story, test chambers, and two new player characters. This new mode forces players to reconsider everything they thought they knew about portals. Success will require them to not just act cooperatively, but to think cooperatively.Product FeaturesExtensive single player: Featuring next generation gameplay and a wildly-engrossing story.Complete two-person co-op: Multiplayer game featuring its own dedicated story, characters, and gameplay.Advanced physics: Allows for the creation of a whole new range of interesting challenges, producing a much larger but not harder game.Original music.Massive sequel: The original Portal was named 2007's Game of the Year by over 30 publications worldwide.Editing Tools: Portal 2 editing tools will be included.",
+  "img": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000050313/75484f73fedd25cb830c5d93fbb3fca643a5ec0b09df2815291ead880bc7d6b1",
+  "Name": "Portal 2",
+  "displayImage": "../Images/Portal_2_1000x410.jpg",
+  "Graph":
+    {
+    "Computer": "https://gg.deals/game/portal-2/#price-history"
+    ,
+      "Xbox": "https://gg.deals/game/portal-2-xbox-360/#price-history"
+    ,
+      "Nintendo": "https://gg.deals/game/portal-2-nintendo-switch/#price-history"
+    },
+  "defaultGameType": 0,
+  "Price": 
+    {
+      "Computer": "£8.50"
+    ,
+      "Xbox": "£14.99"
+    ,
+      "Nintendo": "£13.49"
+    },
+  "Platforms": 
+    {
+      "Computer": "y"
+    ,
+      "Xbox": "y"
+    ,
+      "Playstation": "n"
+    ,
+      "Nintendo": "y"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "description": "Back 4 Blood is a thrilling cooperative first-person shooter from the creators of the critically acclaimed Left 4 Dead franchise. You are at the center of a war against the Ridden. These once-human hosts of a deadly parasite have turned into terrifying creatures bent on devouring what remains of civilization. With humanity's extinction on the line, it's up to you and your friends to take the fight to the enemy, eradicate the Ridden, and reclaim the world. Fight your way through a dynamic, perilous world in a 4-player co-op story campaign where you must work together to survive increasingly challenging missions. Play with up to 3 of your friends online or go solo and lead your team in battle. Choose from 8 customizable Cleaners, one of the immune survivors, and a range of lethal weapons and items. Strategise against an ever-evolving enemy bent on your total destruction. Play with or against friends in PVP. Switch between playing as a Cleaner with special perks and the horrific Ridden. Both sides come with unique weapons, abilities, and specialties.",
+    "img": "../Images/back-4-blood-characters-uhdpaper.com-hd-8.2493.jpg",
+    "Name": "Back 4 Blood",
+    "displayImage": "../Images/Back4Blood_1000x410.png",
+    "Graph":
+      {
+      "Computer": "https://gg.deals/game/back-4-blood/#price-history"
+      ,
+        "Xbox": "https://gg.deals/game/back-4-blood-xbox-pc/#price-history"
+      ,
+        "Playstation": "https://gg.deals/game/back-4-blood-ps4-ps5/#price-history"
+      },
+    "defaultGameType": 0,
+    "Price": 
+      {
+        "Computer": "£3.32"
+      ,
+        "Xbox": "£5.68"
+      ,
+        "Playstation": "£8.99"
+      },
+    "Platforms": 
+      {
+        "Computer": "y"
+      ,
+        "Xbox": "y"
+      ,
+        "Playstation": "y"
+      ,
+        "Nintendo": "n"
+      }
+  }
